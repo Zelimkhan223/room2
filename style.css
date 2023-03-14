@@ -1,0 +1,708 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+body::-webkit-scrollbar {
+    width: 0;
+}
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #e0e0e0;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.header a {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+
+}
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.welcomeBlock {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.welcomeBlock img {
+    max-width: 92%;
+}
+.designBlock {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    height: 40vh;
+    align-items: center;
+}
+.designBlock h1 {
+    color: #1A1A1A;
+    font-size: 48px;
+}
+.designBlock p {
+    line-height: 25px;
+    color: #AAAAAA;
+    font-size: 24px;
+}
+.rooms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.rooms div {
+    max-width: 40%;
+}
+
+.rooms div img {
+    max-width: 100%;
+}
+.rooms p {
+    color: #1A1A1A;
+}
+
+.theWorld {
+    text-align: center;
+    margin-top: 200px;
+}
+.theWorld p {
+    color: #4A4A4A;
+    margin-top: 1rem;
+}
+.brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    width: 100%;
+}
+.brands div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+}
+.BlockPhoto {
+    text-align: center;
+    margin-bottom: 150px;
+}
+.OurSimple {
+    margin-left: 15%;
+    margin-bottom: 100px;
+}
+.OurSimple p {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 40px;
+    color: #1A1A1A;
+    margin-bottom: 30px;
+}
+.OurSimple span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.75px;
+    color: #46856E;
+}
+.blockPhotoText {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+.blockPhotoText h4 {
+    margin-left: -14%;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1A1A1A;
+}
+.blockPhotoText p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AAAAAA;
+    padding-top: 20px;
+    margin-left: -14%;
+    margin-right: 25px;
+}
+.blockStar {
+    background-image: url("./images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 18%;
+}
+.blockStar p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+.blockStar .img {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.blockStar .text_one {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.weTake {
+    padding: 200px 0 150px 22%;
+}
+.weTake h5{
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 52px;
+    color: #AAAAAA;
+    margin-bottom: 25px;
+}
+.weTake p {
+    font-weight: 700;
+    font-size: 46px;
+    color: #000000;
+}
+.weSellDirect {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.weSellDirect div {
+    margin-left: 10%;
+}
+.weSellDirect div h6 {
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #1A1A1A;
+}
+.weSellDirect div p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AAAAAA;
+}
+.weBuildWith {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.weBuildWith div {
+    margin-left: 10%;
+}
+.weBuildWith h6 {
+    padding-bottom: 25px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: #1A1A1A;
+}
+.weBuildWith p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AAAAAA
+}
+.weBuildWith img {
+    margin-left: 10%;
+}
+.weDesign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+.weDesign img {
+    margin-right: 10%;
+}
+.weDesign div h6 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    color: #1A1A1A;
+    padding-bottom: 25px;
+}
+.weDesign div p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AAAAAA;
+}
+.blockPhoto_2 {
+    text-align: center;
+    padding-bottom: 250px;
+}
+.blockIconsBtn {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.blockIconsBtn .wraper {
+    margin: 0 10%;
+    padding: 70px 0 25px 0;
+    background: #F2F2F2;
+    border-radius: 2px;
+}
+.blockIconsBtn .wraper h3 {
+    font-weight: 600;
+    font-size: 46px;
+    color: #000000;
+    padding-bottom: 60px;
+}
+.blockIconsBtn .blockIconsText {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.blockIconsBtn .blockIconsText .iconsText {
+   padding:0 7%;
+}
+.blockIconsBtn .blockIconsText p {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #1A1A1A;
+}
+.blockIconsBtn .blockIconsText .icon_Text {
+    margin-top: 16px;
+}
+.blockIconsBtn button {
+    background: #46856E;
+    border-radius: 2px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+.blockIconsBtn p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #AAAAAA;
+    padding-top: 30px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2B2B2B;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer a, p{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer p {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.footer .iconsInFooter {
+    display: block;
+}
+.footer input {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    background: none;
+    padding: 15px;
+}
+.footer .checkBoxContainer {
+    display: flex;
+    flex-direction: row;
+}
+.footer .checkBox {
+    width: 28px;
+    height: 26px;
+    background: #2B2B2B;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.footer .footerText {
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 1200px) {
+    .designBlock {
+        gap: 10%;
+    }
+    .BlockPhoto .photo_img{
+        height: 71.5vh;
+     }
+    .BlockPhoto .photo_img_1{
+       width: 90%;
+    }
+    .BlockPhoto .photo_img_2{
+        height: 71.5vh;
+     }
+     .OurSimple p {
+        font-size: 44px;
+     }
+     .blockPhotoText {
+        margin-left: 20%;
+     }
+     .weBuildWith div p {
+        font-size: 15px;
+     }
+     .blockPhoto_2 .photo_img {
+        height: 71.6vh;
+     }
+     .blockPhoto_2 .photo_img_1 {
+        width: 90%;
+     }
+     .blockPhoto_2 .photo_img_2 {
+        height: 71.6vh;
+     }
+}
+@media (max-width: 992px) {
+    .designBlock h1 {
+        font-size: 38px;
+    }
+    .designBlock p {
+        font-size: 18px;
+    }
+    .OurSimple p {
+        font-size: 38px;
+     }
+     .blockPhotoText {
+        gap: 20px;
+     }
+     .blockPhotoText p{
+        font-size: 13px;
+     }
+    .BlockPhoto .photo_img{
+        height: 58.7vh;
+     }
+    .BlockPhoto .photo_img_1{
+       width: 90%;
+    }
+    .BlockPhoto .photo_img_2{
+        height: 58.7vh;
+     }
+     .weTake h5{
+        font-size: 34px;
+     }
+     .weTake p{
+        font-size: 34px;
+     }
+     .weSellDirect img{
+        width: 50%;
+     }
+     .weBuildWith img {
+        width: 50%;
+     }
+     .weDesign img {
+        width: 50%;
+     }
+     .blockPhoto_2 .photo_img {
+        height: 58.7vh;
+     }
+     .blockPhoto_2 .photo_img_1 {
+        width: 90%;
+     }
+     .blockPhoto_2 .photo_img_2 {
+        height: 58.7vh;
+     }
+}
+
+@media (max-width: 768px) {
+    .designBlock h1 {
+        font-size: 30px;
+    }
+    .designBlock p {
+        font-size: 15px;
+    }
+    .brands {
+        margin-bottom: 100px;
+    }
+    .OurSimple p {
+        font-size: 28px;
+     }
+    .BlockPhoto .photo_img{
+        height: 45.6vh;
+     }
+    .BlockPhoto .photo_img_1{
+       width: 90%;
+    }
+    .BlockPhoto .photo_img_2{
+        height: 45.6vh;
+     }
+     .blockPhotoText {
+        padding-bottom: 150px;
+     }
+     .blockPhotoText .blockImg img {
+        width: 60%;
+     }
+     .blockPhotoText .blockImgCenter img {
+        width: 60%;
+        margin-bottom: 5px;
+     }
+     .blockPhotoText p {
+        font-size: 10px;
+        line-height: 20px;
+     }
+     .blockStar {
+        background-size: contain;
+        height: 100vh;
+        padding: 20px 18%;
+     }
+     .blockStar div p{
+       font-size: 16px;
+       line-height: 25px;
+     }
+    .blockStar .img {
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    .weTake {
+        padding: 0 0 150px 22%;
+    }
+    .weTake h5 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .weTake p {
+        font-size: 28px;
+    }
+    .weSellDirect img {
+        width: 45%;
+    }
+    .weSellDirect div h6 {
+        font-size: 28px;
+    }
+    .weSellDirect div p {
+        font-size: 14px;
+    }
+    .weBuildWith div h6 {
+        font-size: 25px;
+    }
+    .weBuildWith div p {
+        font-size: 13px;
+    }
+    .weBuildWith img {
+        width: 48%;
+    }
+    .weDesign {
+        padding-bottom: 100px;
+    }
+    .weDesign img {
+        width: 48%;
+    }
+    .weDesign div h6 {
+        font-size: 25px;
+    }
+    .weDesign div p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .blockPhoto_2 {
+        padding-bottom: 150px;
+    }
+    .blockPhoto_2 .photo_img {
+        height: 45.5vh;
+     }
+     .blockPhoto_2 .photo_img_1 {
+        width: 90%;
+     }
+     .blockPhoto_2 .photo_img_2 {
+        height: 45.5vh;
+     }
+     .footer div:first-child img{
+        display: none;
+     }
+}
+
+@media (max-width: 576px) {
+    body::-webkit-scrollbar {
+        width: 0;
+    }
+    .header {
+        flex-direction: column;
+        padding: 50px 5px;
+        width: 100%;
+    }
+    .header img {
+        margin-bottom: 20px;
+    }
+    .header .menu {
+        gap: 55px;
+    }
+    .header a {
+        padding-bottom: 15px;
+    }
+    .header .cart {
+       gap: 65px;
+       text-align: center;
+    }
+    .welcomeBlock {
+        width: 100%;
+    }
+    .welcomeBlock img {
+        max-width: 100%;
+        margin-right: -30px;
+    }
+    .designBlock {
+        margin-left: 6%;
+    }
+    .designBlock h1 {
+        font-size: 18px;
+    }
+    .designBlock p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .rooms {
+        margin-left: 6%;
+    }
+    .theWorld {
+        margin-top: 100px;
+        margin-left: 6%;
+    }
+    .theWorld h1 {
+        font-size: 18px;
+    }
+    .BlockPhoto {
+        margin-right: -11%;
+    }
+    .BlockPhoto .photo_img{
+        height: 25vh;
+     }
+    .BlockPhoto .photo_img_1{
+       width: 90%;
+    }
+    .BlockPhoto .photo_img_2{
+        height: 25vh;
+     }
+     .OurSimple p {
+        font-size: 24px;
+     }
+     .blockPhotoText {
+        gap: 20px;
+     }
+     .blockPhotoText div .blockImgCenter img{
+       margin-bottom: 2px;
+     }
+     .blockPhotoText h4 {
+        font-size: 15px;
+     }
+     .blockPhotoText p {
+        font-size: 12px;
+        line-height: 15px;
+     }
+     .blockStar {
+        width: 100%;
+        padding: 10px 9%;
+        height: 40vh;
+     }
+     .blockStar .img {
+        padding-top: 5px;
+        padding-bottom: 0;
+    }
+     .blockStar div .star {
+        width: 50%;
+     }
+     .blockStar div .img {
+        width: 15%;
+     }
+     .blockStar div p {
+        font-size: 13px;
+        line-height: 20px;
+     }
+     .weTake {
+        padding-bottom: 100px;
+        margin-left: -5%;
+     }
+     .weTake h5 {
+        font-size: 20px;
+        line-height: 30px;
+     }
+     .weTake p {
+        font-size: 20px;
+     }
+     .weSellDirect {
+        margin-left: 3%;
+     }
+     .weSellDirect img{
+        width: 50%;
+     }
+     .weSellDirect div h6 {
+        font-size: 17px;
+        padding-bottom: 10px;
+     }
+     .weSellDirect div p {
+        font-size: 9px ;
+        line-height: 10px;
+     }
+     .weBuildWith {
+        margin-left: 3%;
+     }
+     .weBuildWith div h6 {
+        font-size: 17px;
+        line-height: 20px;
+        padding-bottom: 10px;
+     }
+     .weBuildWith div p {
+        font-size: 9px;
+        line-height: 10px;
+     }
+     .weBuildWith img {
+        width: 50%;
+     }
+     .weDesign {
+        margin-left: 3%;
+     }
+     .weDesign img {
+        width: 50%;
+     }
+     .weDesign div h6 {
+        font-size: 17px;
+        line-height: 20px;
+        padding-bottom: 10px;
+     }
+     .weDesign div p {
+        font-size: 9px;
+        line-height: 10px;
+     }
+     .blockPhoto_2 {
+        margin-right: -10%;
+     }
+     .blockPhoto_2 .photo_img {
+        height: 24.5vh;
+     }
+     .blockPhoto_2 .photo_img_1 {
+        width: 90%;
+     }
+     .blockPhoto_2 .photo_img_2 {
+        height: 24.5vh;
+     }
+     .blockIconsBtn .wraper {
+        margin-right: -3%;
+        margin-left: 7%;
+     }
+     .blockIconsBtn .wraper h3 {
+        font-size: 26px;
+     }
+     .footer {
+        flex-wrap: wrap;
+        width: 100%;
+        padding-right: 7%;
+        padding-left: 5%; 
+     }
+}
